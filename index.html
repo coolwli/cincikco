@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="tr">
+<html lang="en">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,116 +8,23 @@
             rel="icon"
             href="https://upload.wikimedia.org/wikipedia/commons/a/af/Under_construction_icon-yellow.svg"
         />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap" />
-        <style>
-            * {
-                box-sizing: border-box;
-            }
-
-            body {
-                min-height: 100vh;
-                margin: 0;
-                background: #000;
-                font-family: "Times New Roman", Times, serif;
-            }
-
-            .page {
-                min-height: 100vh;
-                margin: auto;
-                padding: 10px 8px;
-                display: flex;
-                flex-direction: column;
-                background: #ececec;
-                color: #000;
-            }
-
-            .bar {
-                min-height: 24px;
-                padding: 4px 8px;
-                display: flex;
-                justify-content: space-between;
-                gap: 16px;
-                background: #146eb4;
-                color: #fff;
-                font:
-                    12px Arial,
-                    Helvetica,
-                    sans-serif;
-            }
-
-            main {
-                flex: 1;
-                display: grid;
-                place-items: center;
-                padding: 48px 16px;
-                text-align: center;
-            }
-
-            h1 {
-                margin: 0;
-                color: #000080;
-                font-family: "Syne Tactile", Georgia, serif;
-                font-size: clamp(4rem, 14vw, 8rem);
-                font-weight: 400;
-                letter-spacing: 0;
-                line-height: 1;
-            }
-
-            .brand-title {
-                position: relative;
-                display: inline-block;
-            }
-
-            .pronunciation {
-                margin: 18px 0 0;
-                font-size: 16px;
-                font-style: italic;
-            }
-
-            .new {
-                position: absolute;
-                top: 0;
-                right: -30px;
-                padding: 1px 3px;
-                background: #ffff00;
-                font:
-                    bold 10px Arial,
-                    Helvetica,
-                    sans-serif;
-            }
-
-            .bar a {
-                color: #fff;
-            }
-
-            @media (max-width: 420px) {
-                .bar {
-                    font-size: 10px;
-                }
-            }
-        </style>
     </head>
-    <body>
-        <div class="page">
-            <header class="bar">
-                <span>home // online</span>
+    <body style="font-family: &quot;Google Sans&quot;, Arial, sans-serif">
+        <div>
+            <header>
+                <h1 style="color: #131313">cıncık</h1>
             </header>
 
             <main>
-                <section aria-labelledby="brand-name">
-                    <div class="brand-title">
-                        <h1 id="brand-name">cıncık</h1>
-                        <sup class="new">NEW</sup>
-                    </div>
-                    <p class="pronunciation">juhn-juhk [dʒɯnˈdʒɯk]</p>
-                </section>
+                <p>
+                    <span>sounds like:</span>
+                    <b>juhn-juhk [dʒɯnˈdʒɯk]</b>
+                </p>
             </main>
 
-            <footer class="bar">
-                <span>© 2026</span>
-                <a href="mailto:get@cincik.co">get@cincik.co</a>
+            <footer>
+                <p><a href="mailto:get@cincik.co">get@cincik.co</a></p>
+                <p><span>© 2026</span></p>
             </footer>
         </div>
     </body>
